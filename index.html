@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>منصة المعلم</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- Font Awesome css -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Google Fonts files -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="container-fluid">
+        <!-- Logo -->
+        <div class="nav-logo">
+          <a href="#" class="navbar-brad"
+            ><img src="images/logo.png" alt="منصة المعلم" class="logo"
+          /></a>
+        </div>
+        <!-- Start Navbar -->
+        <!-- Nav-container -->
+        <div class="nav-container" id="nav-container">
+          <div class="nav-items d-flex align-items-center" id="nav-items">
+            <div class="item"><a href="/">الرئيسية</a></div>
+            <!-- drop menu -->
+            <div class="item dropmenu" id="dropbutton" tabindex="-1">
+              <!-- arrow down icon -->
+              <span class="arrow-icon"
+                ><img src="images/arrow.png" alt="arrow" class="me-3"
+              /></span>
+              <a class="dropdown-toggler"> التخصصات </a>
+              <ul class="dropdown-menu" id="dropdown" tabindex="-1">
+                <h3 class="float-end pe-3 drop-text">الفئات</h3>
+                <li class="dropdown">
+                  <a
+                    class="dropdown-item text-end"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    href="#"
+                  >
+                    <span class="arrow-icon">
+                      <img
+                        src="images/arrow.png"
+                        alt="arrow"
+                        class="drop-arrow float-start"
+                        id="arrow-down"
+                      /> </span
+                    >المرحلة الإعدادية
+                  </a>
+                  <!-- second drop menu -->
+                  <ul class="dropdown-second-menu dropdown-menu-dark">
+                    <li>
+                      <a class="dropdown-item" href="#">الصف الأول الإعدادي</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">الصف الثاني الإعدادي</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">الصف الثالث الإعدادي</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a class="dropdown-item text-end" href="#">
+                    <span class="arrow-icon"
+                      ><img
+                        src="images/arrow.png"
+                        alt="arrow"
+                        class="drop-arrow float-start" /></span
+                    >المرحلة الثانوية</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-end" href="#">
+                    <span class="arrow-icon"
+                      ><img
+                        src="images/arrow.png"
+                        alt="arrow"
+                        class="drop-arrow float-start" /></span
+                    >كورسات لغات</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-end" href="#">
+                    <span class="arrow-icon"
+                      ><img
+                        src="images/arrow.png"
+                        alt="arrow"
+                        class="drop-arrow float-start" /></span
+                    >كورسات ادارة اعمال</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-end" href="#">
+                    <span class="arrow-icon"
+                      ><img
+                        src="images/arrow.png"
+                        alt="arrow"
+                        class="drop-arrow float-start" /></span
+                    >كورسات تصميم</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-end" href="#">
+                    <span class="arrow-icon"
+                      ><img
+                        src="images/arrow.png"
+                        alt="arrow"
+                        class="drop-arrow float-start" /></span
+                    >كورسات برمجة</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-end" href="#">
+                    <span class="arrow-icon"
+                      ><img
+                        src="images/arrow.png"
+                        alt="arrow"
+                        class="drop-arrow float-start" /></span
+                    >كورسات ICDL</a
+                  >
+                </li>
+                <button
+                  class="position-absolute bottom-0 start-50 translate-middle-x explore"
+                  id="explore"
+                >
+                  تصفح جميع التخصصات
+                </button>
+              </ul>
+            </div>
+            <div class="item"><a href="/">التواصل</a></div>
+            <div class="item"><a href="/">تسجيل دخول</a></div>
+          </div>
+          <!-- End Navbar -->
+          <!-- Create account button -->
+          <button class="create-account">
+            <span class="btn-text">إنشاء حساب جديد</span>
+          </button>
+        </div>
+        <!-- nav icon -->
+        <div class="nav-toggler" id="bar">
+          <i class="fas fa-bars"></i>
+        </div>
+        <!-- close nav icon -->
+        <div class="navbar-close" id="xmark">
+          <i class="far fa-circle-xmark"></i>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!--Start Landing section -->
+    <section class="landing">
+      <div class="container-fluid">
+        <!-- Right section -->
+        <section class="right-section d-flex flex-column align-items-end">
+          <h1 class="text-end main-text mt-4">
+            منصة المعلم تقدم لكم التعليم أون لاين من خلال الموقع الالكتروني
+          </h1>
+          <p class="text-end main-caption mt-4">
+            نقدم دورات تعليمة للمرحلة الاعدادية و المراحلة الثانوية , و كورسات
+            عامة لتعليم اللغات و ومهارات الكمبيوتر وغيرها.
+          </p>
+          <button class="subscribe text-center mx-auto mt-4">اشترك الآن</button>
+        </section>
+        <!-- Left section -->
+        <section class="left-section">
+          <img
+            src="images/VR glasses.png"
+            alt="VR glasses"
+            class="img-fluid VR"
+          />
+        </section>
+      </div>
+    </section>
+    <!--End Landing section -->
+    <!-- Start Search section -->
+    <section class="search-section">
+      <div class="container-fluid">
+        <div
+          class="search-container d-flex justify-content-center align-items-center"
+        >
+          <form action="/search" class="d-flex justify-content-center">
+            <input type="text" name="search" class="search-bar" />
+            <button type="submit" class="search-button">
+              <span class="search-text"></span> Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End Search section -->
+    <!-- main java script file -->
+    <script src="js/main.js"></script>
+    <!-- Font Awesome java script -->
+    <script src="js/all.min.js"></script>
+    <!-- Bootstrap java script -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
